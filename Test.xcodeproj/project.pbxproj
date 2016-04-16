@@ -13,6 +13,13 @@
 		845E07931CBE750D001E65AC /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845E07911CBE750D001E65AC /* Test.xcdatamodeld */; };
 		845E07951CBE750D001E65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845E07941CBE750D001E65AC /* Assets.xcassets */; };
 		845E07981CBE750D001E65AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E07961CBE750D001E65AC /* LaunchScreen.storyboard */; };
+		846552071CBFD6E200640A9C /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846552061CBFD6E200640A9C /* GlobalFunctions.swift */; };
+		8465520A1CBFD7B000640A9C /* mainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846552081CBFD7B000640A9C /* mainTableViewCell.swift */; };
+		8465520B1CBFD7B000640A9C /* mainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846552091CBFD7B000640A9C /* mainTableViewCell.xib */; };
+		84DA64BF1CBF864D00B9ACB3 /* mainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA64BE1CBF864D00B9ACB3 /* mainTableViewController.swift */; };
+		84E243761CC22AA400F7E95F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E243751CC22AA400F7E95F /* SwiftyJSON.framework */; };
+		84EB72D41CC1897F00959DF3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EB737A1CC18339002D5BE9 /* Alamofire.framework */; };
+		84EDA6911CC0D8B200569BF4 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDA68F1CC0D8B200569BF4 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		845E07941CBE750D001E65AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845E07971CBE750D001E65AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845E07991CBE750D001E65AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846552061CBFD6E200640A9C /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		846552081CBFD7B000640A9C /* mainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTableViewCell.swift; sourceTree = "<group>"; };
+		846552091CBFD7B000640A9C /* mainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainTableViewCell.xib; sourceTree = "<group>"; };
+		84DA64BE1CBF864D00B9ACB3 /* mainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTableViewController.swift; sourceTree = "<group>"; };
+		84E243751CC22AA400F7E95F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		84EB737A1CC18339002D5BE9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		84EDA68F1CC0D8B200569BF4 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = ../Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EB72D41CC1897F00959DF3 /* Alamofire.framework in Frameworks */,
+				84E243761CC22AA400F7E95F /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 		845E077E1CBE750C001E65AC = {
 			isa = PBXGroup;
 			children = (
+				84E243751CC22AA400F7E95F /* SwiftyJSON.framework */,
+				84EB737A1CC18339002D5BE9 /* Alamofire.framework */,
 				845E07891CBE750C001E65AC /* Test */,
 				845E07881CBE750C001E65AC /* Products */,
 			);
@@ -63,6 +81,11 @@
 				845E07961CBE750D001E65AC /* LaunchScreen.storyboard */,
 				845E07991CBE750D001E65AC /* Info.plist */,
 				845E07911CBE750D001E65AC /* Test.xcdatamodeld */,
+				84DA64BE1CBF864D00B9ACB3 /* mainTableViewController.swift */,
+				846552061CBFD6E200640A9C /* GlobalFunctions.swift */,
+				846552081CBFD7B000640A9C /* mainTableViewCell.swift */,
+				846552091CBFD7B000640A9C /* mainTableViewCell.xib */,
+				84EDA68F1CC0D8B200569BF4 /* Restaurant.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -77,6 +100,7 @@
 				845E07831CBE750C001E65AC /* Sources */,
 				845E07841CBE750C001E65AC /* Frameworks */,
 				845E07851CBE750C001E65AC /* Resources */,
+				84EB72D51CC18A2900959DF3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -128,18 +152,41 @@
 			files = (
 				845E07981CBE750D001E65AC /* LaunchScreen.storyboard in Resources */,
 				845E07951CBE750D001E65AC /* Assets.xcassets in Resources */,
+				8465520B1CBFD7B000640A9C /* mainTableViewCell.xib in Resources */,
 				845E07901CBE750D001E65AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84EB72D51CC18A2900959DF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845E07831CBE750C001E65AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8465520A1CBFD7B000640A9C /* mainTableViewCell.swift in Sources */,
+				846552071CBFD6E200640A9C /* GlobalFunctions.swift in Sources */,
+				84DA64BF1CBF864D00B9ACB3 /* mainTableViewController.swift in Sources */,
 				845E078D1CBE750D001E65AC /* ViewController.swift in Sources */,
+				84EDA6911CC0D8B200569BF4 /* Restaurant.swift in Sources */,
 				845E078B1CBE750D001E65AC /* AppDelegate.swift in Sources */,
 				845E07931CBE750D001E65AC /* Test.xcdatamodeld in Sources */,
 			);
@@ -252,6 +299,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qwerty.Test;
@@ -263,6 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qwerty.Test;
@@ -289,6 +344,7 @@
 				845E079E1CBE750D001E65AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
